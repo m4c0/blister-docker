@@ -1,0 +1,3 @@
+[submodule "python"]
+	path = python
+	url = https://github.com/m4c0/blister
