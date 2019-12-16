@@ -6,9 +6,7 @@ Currently, this is not published in a public Docker repository, therefore you ne
 download it and build it yourself:
 
 ```sh
-git clone git@github.com:m4c0/blister-docker.git
-cd blister-docker
-docker build . -t blister:latest
+docker build https://github.com/m4c0/blister-docker.git -t blister:latest
 ```
 
 Then, you can use your favourite way to run that image. It contains clang-9, ninja and
